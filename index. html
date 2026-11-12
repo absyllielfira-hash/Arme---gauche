@@ -1,1 +1,76 @@
-Bonjour ceci est mon site
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>J'ai passé l'arme à gauche</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#f5f3ed;color:#252525;font:18px/1.6 Arial,sans-serif}
+header{background:#252b35;color:white;text-align:center;padding:40px 15px}
+h1{font-size:clamp(30px,7vw,46px);line-height:1.2}
+header p{color:#f0d5a2}
+nav{background:white;padding:15px;text-align:center}
+nav a{display:inline-block;margin:5px;color:#a12e2e;font-weight:bold}
+main{max-width:750px;margin:auto;padding:12px}
+section{background:white;padding:22px;margin:20px 0;border-radius:12px;box-shadow:0 2px 8px #0001}
+h2{font-size:26px}
+h3{font-size:21px}
+.chiffre{font-size:30px;color:#a12e2e;font-weight:bold}
+.question{border-left:4px solid #a12e2e;padding:12px;background:#faf5f1}
+footer{text-align:center;padding:25px;color:#666}
+</style>
+</head>
+<body>
+<header>
+<h1>J'ai passé l'arme à gauche</h1>
+<p>De Le Pen à Mélenchon, face à la mort</p>
+</header>
+<nav>
+<a href="#histoire">Mon histoire</a>
+<a href="#argent">L'argent public</a>
+<a href="#priorites">Nos priorités</a>
+</nav>
+<main>
+<section id="histoire">
+<h2>1. Pourquoi j'ai changé d'avis</h2>
+<p>Après un coma d'environ douze jours, je me suis réveillé avec un regard différent sur la vie.</p>
+<p>J'ai remis en question mes certitudes et mes convictions politiques.</p>
+<p>J'ai commencé à comparer les arguments de différents partis. Mes recherches m'ont rapproché des idées de Jean-Luc Mélenchon.</p>
+<h3>Que voulons-nous vraiment ?</h3>
+<p>Manger correctement. Avoir un logement. Être soigné. Donner une bonne éducation à nos enfants.</p>
+<p>Nous voulons souvent les mêmes choses, mais nous ne sommes pas d'accord sur les moyens.</p>
+<div class="question">Et si nous comparions les solutions plutôt que les slogans ?</div>
+</section>
+<section id="argent">
+<h2>2. Où va notre argent ?</h2>
+<p>On nous dit souvent que la France manque d'argent.</p>
+<p>Pourtant, les aides publiques aux entreprises représentent des sommes considérables.</p>
+<div class="chiffre">108 à 211 milliards €</div>
+<p>Ce sont différentes estimations pour 2023, selon les aides prises en compte dans les travaux d'une commission d'enquête du Sénat.</p>
+<p>Ces aides comprennent des subventions, des réductions d'impôts et des allègements de cotisations.</p>
+<h3>Et la dette ?</h3>
+<p>Entre fin 2016 et fin 2024, la dette publique a augmenté d'environ 1 150 milliards d'euros.</p>
+<p>Cette hausse ne peut pas être attribuée uniquement aux aides aux entreprises.</p>
+<div class="question">À qui profite l'argent public ? Quels résultats obtient-on ?</div>
+</section>
+<section id="priorites">
+<h2>3. Que pourrait-on faire ?</h2>
+<h3>L'éducation</h3>
+<div class="chiffre">10 milliards €/an</div>
+<p>Sur dix ans, cela ferait 100 milliards d'euros supplémentaires, hors inflation.</p>
+<p>De quoi étudier le financement de nouveaux postes, de matériel et de bâtiments scolaires.</p>
+<h3>Les hôpitaux</h3>
+<p>Ouvrir un lit d'hôpital demande aussi du personnel : infirmiers, aides-soignants et médecins.</p>
+<p>Combien de lits opérationnels pourrait-on financer ?</p>
+<h3>Les pompiers</h3>
+<p>Davantage de personnel, de véhicules et de matériel pourrait renforcer les secours.</p>
+<div class="question">Comment voulons-nous utiliser notre argent collectif ?</div>
+<p><small>Ces chiffres et hypothèses doivent être vérifiés et complétés avant publication définitive.</small></p>
+</section>
+</main>
+<footer>Document de travail - novembre 2026</footer>
+</body>
+</html>
